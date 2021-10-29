@@ -1,0 +1,39 @@
+# 編集する前にUMP閉じてなー！ どの設定が何をするかはまにゅある見てなー
+# Close UMP before editing! See manual for documentation
+# https://pipiraworld.web.fc2.com/ump/manual/
+version: 2
+language: ja
+midi:
+  loaderThreads: 0
+  usePlayThread: true
+render:
+  background: 0xc0c0c0
+  font: Monospaced
+  fpsLimit: 100
+  height: 995
+  renderInterval: 0.2
+  resourcePack: null
+  usePFAColors: false
+  width: 1920
+  overlay:
+    opaque: false
+    info:
+      scale: 1.0
+      type: DEFAULT
+      position: TOP_RIGHT
+      showDuration: false
+    fps:
+      type: SHOW_ALL
+    desync:
+      type: SHOW_NUMBERS
+    loading:
+      showMemoryUsage: false
+ui:
+  font: Yu Gothic UI
+files:
+  midi: C:\Users\yako2021\Music\midi files\bad apple 4.6 million.mid
+  ffmpeg: null
+  resourcePacks: null
+updateChecker:
+  checkOnStartup: true
+  branch: development
